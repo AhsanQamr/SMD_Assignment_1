@@ -359,8 +359,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/nav_b"
-            app:labelVisibilityMode="labeled"
+            android:id="@+id/bottom_nav"
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_navigation_menu"
             app:itemIconTint="#fcfc03"

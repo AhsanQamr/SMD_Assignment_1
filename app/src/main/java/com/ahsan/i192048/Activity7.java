@@ -16,14 +16,14 @@ public class Activity7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_7);
 
-        button = findViewById(R.id.nextPage);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Activity7.this, Activity8.class));
-            }
-        });
+//        button = findViewById(R.id.nextPage);
+//
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(Activity7.this, Activity8.class));
+//            }
+//        });
 
     }
 }

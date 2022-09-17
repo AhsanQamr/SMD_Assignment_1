@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.Toolbar;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.Objects;
@@ -33,7 +34,6 @@ public class Activity5 extends AppCompatActivity  {
 
         button = findViewById(R.id.more);
         imageView = findViewById(R.id.profile);
-        bottomNavigationView = findViewById(R.id.nav_b);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +46,33 @@ public class Activity5 extends AppCompatActivity  {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Activity5.this,Activity22.class));
+            }
+        });
+
+        bottomNavigationView = findViewById(R.id.bottom_nav);
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @SuppressLint("NonConstantResourceId")
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.add:
+                        Intent intent = new Intent(Activity5.this, Activity8.class);
+                        startActivity(intent);
+                        return true;
+                    case R.id.action_liked:
+                        Intent intent3 = new Intent(Activity5.this, Activity19.class);
+                        startActivity(intent3);
+                        return true;
+                    case R.id.search:
+                        Intent intent1 = new Intent(Activity5.this, Activity17.class);
+                        startActivity(intent1);
+                        return true;
+                    case R.id.listen_later:
+                        Intent intent2 = new Intent(Activity5.this, Activity18.class);
+                        startActivity(intent2);
+                        return true;
+                }
+                return false;
             }
         });
 
