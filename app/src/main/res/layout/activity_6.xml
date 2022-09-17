@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Activity6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/menu_button_1"
+            android:layout_width="55dp"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/menu" />
+
+        <ImageView
+            android:id="@+id/profile_1"
+            android:clickable="true"
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="220dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/profile" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Playlists"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/playlist"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageLabel"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-15dp"
+                android:singleLine="true"
+                android:text="Playlist3"
+                android:textColor="#fcfc03"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/playlist"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageLabel"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-15dp"
+                android:singleLine="true"
+                android:text="Playlist4"
+                android:textColor="#fcfc03"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/playlist"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageLabel"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-15dp"
+                android:singleLine="true"
+                android:text="Playlist5"
+                android:textColor="#fcfc03"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artists"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/artist"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageLabel"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-15dp"
+                android:singleLine="true"
+                android:text="Artist3"
+                android:textColor="#fcfc03"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/artist"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageLabel"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-15dp"
+                android:singleLine="true"
+                android:text="Artist4"
+                android:textColor="#fcfc03"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:src="@drawable/artist"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageLabel"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-15dp"
+                android:singleLine="true"
+                android:text="Artist5"
+                android:textColor="#fcfc03"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="DuplicateIds" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/comments"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false"
+        android:text="Comment"
+        android:textColor="#fcfc03" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Song Name"
+            android:textSize="26dp"
+            android:textColor="#fcfc03" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.13"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fastbackward"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.13"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.13"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fastforward"
+            />
+
+
+    </LinearLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            app:labelVisibilityMode="labeled"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_navigation_menu"
+            app:itemIconTint="#fcfc03"
+            android:layout_width="match_parent"
+            app:itemTextColor="#fcfc03"
+            android:layout_height="65dp"/>
+        <!-- this label visibility mode if removed then one item shown at a time -->
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
