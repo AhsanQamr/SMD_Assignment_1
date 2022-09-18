@@ -3,6 +3,7 @@ package com.ahsan.i192048;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.annotation.SuppressLint;
@@ -25,7 +26,10 @@ public class Activity5 extends AppCompatActivity  {
 
     Button button;
     ImageView imageView;
+    ImageView imageView1;
     BottomNavigationView bottomNavigationView;
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,7 @@ public class Activity5 extends AppCompatActivity  {
 
         button = findViewById(R.id.more);
         imageView = findViewById(R.id.profile);
+        imageView1 = findViewById(R.id.menu_button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +53,7 @@ public class Activity5 extends AppCompatActivity  {
                 startActivity(new Intent(Activity5.this,Activity22.class));
             }
         });
+
 
         bottomNavigationView = findViewById(R.id.bottom_nav);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
@@ -75,6 +81,17 @@ public class Activity5 extends AppCompatActivity  {
                 return false;
             }
         });
+//
+//        drawerLayout = findViewById(R.id.my_drawer_layout);
+//        navigationView = findViewById(R.id.side_nav_view);
+
+        imageView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Activity5.this, SideDrawer.class));
+            }
+        });
+
 
     }
 

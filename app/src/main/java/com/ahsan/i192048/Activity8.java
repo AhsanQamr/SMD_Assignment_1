@@ -18,10 +18,7 @@ public class Activity8 extends AppCompatActivity {
     Button button;
 
     BottomNavigationView bottomNavigationView;
-    AddFramgment addFramgment = new AddFramgment();
-    SearchFragment searchFragment = new SearchFragment();
-    LikeFragment likeFragment = new LikeFragment();
-    ListenFragment listenFragment = new ListenFragment();
+
 
 
     @Override
@@ -39,30 +36,31 @@ public class Activity8 extends AppCompatActivity {
         });
 
         bottomNavigationView = findViewById(R.id.bottom_nav);
-
-        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener()  {
             @SuppressLint("NonConstantResourceId")
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.add:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,addFramgment).commit();
-//                        Intent intent = new Intent(Activity8.this, AddFramgment.class);
-//                        startActivity(intent);
+                        Intent intent = new Intent(Activity8.this, Activity8.class);
+                        startActivity(intent);
                         return true;
                     case R.id.action_liked:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,likeFragment).commit();
+                        Intent intent3 = new Intent(Activity8.this, Activity19.class);
+                        startActivity(intent3);
                         return true;
                     case R.id.search:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,searchFragment).commit();
+                        Intent intent1 = new Intent(Activity8.this, Activity17.class);
+                        startActivity(intent1);
                         return true;
                     case R.id.listen_later:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,listenFragment).commit();
+                        Intent intent2 = new Intent(Activity8.this, Activity18.class);
+                        startActivity(intent2);
                         return true;
                 }
                 return false;
             }
         });
-
+        
     }
 }
