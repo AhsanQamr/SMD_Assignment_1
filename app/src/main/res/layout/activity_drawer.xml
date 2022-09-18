@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".DrawerActivity">
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/my_drawer_layout"
+            android:layout_width="match_parent"
+            tools:openDrawer ="start"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/purple_200"
+                    android:id="@+id/toolbar"/>
+
+                <FrameLayout
+                    android:id="@+id/content_frame"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/side_nav_view"
+                android:background="#6f4113"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                app:menu="@menu/side_navigation"
+                app:headerLayout="@layout/header_nav_drawer"
+                android:layout_gravity="start"
+                app:itemTextColor="#D6c51e" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:clickable="true"
+                    android:layout_marginBottom="40dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Logout"
+                        android:textColor="#fcfc03"
+                        android:textStyle="bold"
+                        android:textSize="24dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="76dp"
+                        android:layout_gravity="center"
+                        app:tint="#fcfc03"
+                        android:src="@drawable/logout" />
+
+                </LinearLayout>
+
+            </com.google.android.material.navigation.NavigationView>
+
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+</LinearLayout>

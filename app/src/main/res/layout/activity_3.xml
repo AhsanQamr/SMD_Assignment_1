@@ -9,6 +9,7 @@
     tools:context=".Activity3">
 
     <Button
+
         android:id="@+id/sign_in_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +19,7 @@
         android:textColor="@color/white"
         android:gravity="right"
         android:layout_marginLeft="250dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:textStyle="bold"
         android:textSize="25dp" />
 

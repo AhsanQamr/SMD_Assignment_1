@@ -6,56 +6,10 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
+    android:layout_below="@+id/content_frame"
     tools:context=".Activity5">
 
 
-<!--     <androidx.drawerlayout.widget.DrawerLayout-->
-<!--        android:id="@+id/my_drawer_layout"-->
-<!--        android:layout_width="300dp"-->
-<!--        android:layout_height="wrap_content">-->
-<!--        <FrameLayout-->
-<!--            android:id="@+id/content_frame"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <com.google.android.material.navigation.NavigationView-->
-<!--            android:id="@+id/side_nav_view"-->
-<!--            android:background="#6f4113"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="match_parent"-->
-<!--            app:menu="@menu/side_navigation"-->
-<!--            app:headerLayout="@layout/header_nav_drawer"-->
-<!--            app:itemTextColor="#D6c51e" >-->
-
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="bottom"-->
-<!--                android:clickable="true"-->
-<!--                android:layout_marginBottom="40dp"-->
-<!--                android:gravity="center"-->
-<!--                android:orientation="horizontal">-->
-<!--                <TextView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Logout"-->
-<!--                    android:textColor="#fcfc03"-->
-<!--                    android:textStyle="bold"-->
-<!--                    android:textSize="24dp"/>-->
-
-<!--                <ImageView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="76dp"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    app:tint="#fcfc03"-->
-<!--                    android:src="@drawable/logout" />-->
-
-<!--            </LinearLayout>-->
-
-<!--        </com.google.android.material.navigation.NavigationView>-->
-
-
-<!--    </androidx.drawerlayout.widget.DrawerLayout>-->
 
 
 
@@ -369,5 +323,6 @@
         <!-- this label visibility mode if removed then one item shown at a time -->
 
     </FrameLayout>
+
 
 </LinearLayout>

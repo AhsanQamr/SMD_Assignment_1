@@ -3,6 +3,7 @@ package com.ahsan.i192048;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -14,7 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toolbar;
+
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -28,8 +29,7 @@ public class Activity5 extends AppCompatActivity  {
     ImageView imageView;
     ImageView imageView1;
     BottomNavigationView bottomNavigationView;
-    DrawerLayout drawerLayout;
-    NavigationView navigationView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,17 +81,13 @@ public class Activity5 extends AppCompatActivity  {
                 return false;
             }
         });
-//
-//        drawerLayout = findViewById(R.id.my_drawer_layout);
-//        navigationView = findViewById(R.id.side_nav_view);
 
-//        imageView1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(Activity5.this, SideDrawer.class));
-//            }
-//        });
-
+        imageView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Activity5.this, DrawerActivity.class));
+            }
+        });
 
     }
 
