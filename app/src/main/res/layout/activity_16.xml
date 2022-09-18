@@ -92,6 +92,7 @@
             android:layout_gravity="bottom"
             app:itemIconTint="#fcfc03"
             app:itemTextColor="#fcfc03"
+            android:id="@+id/bottom_nav"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_navigation_menu" />
         <!-- this label visibility mode if removed then one item shown at a time -->

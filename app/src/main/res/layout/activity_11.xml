@@ -49,11 +49,11 @@
 
     <Button
         android:id="@+id/stop_11"
-        android:layout_width="120dp"
+        android:layout_width="132dp"
         android:layout_height="83dp"
         android:layout_gravity="center"
         android:layout_marginTop="2dp"
-        android:background="@drawable/stop" />
+        android:background="@drawable/pause_12" />
 
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -64,6 +64,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
             app:labelVisibilityMode="labeled"
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_navigation_menu"

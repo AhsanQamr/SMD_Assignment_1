@@ -11,6 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -62,19 +63,12 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/nextPage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/comments"
-        android:layout_gravity="right"
-        android:layout_marginTop="60dp"
-        android:text="Next Page"/>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="84dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="300dp"
         android:orientation="horizontal">
 
         <TextView
@@ -105,6 +99,7 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             app:labelVisibilityMode="labeled"
             android:layout_gravity="bottom"
+            android:id="@+id/bottom_nav"
             app:menu="@menu/bottom_navigation_menu"
             app:itemIconTint="#fcfc03"
             android:layout_width="match_parent"

@@ -84,7 +84,7 @@
             android:text="3:01"
             android:textColor="@color/white"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="40dp"
             android:textStyle="bold"
             android:layout_marginBottom="10dp"/>
 
@@ -139,7 +139,7 @@
             android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="bottom"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginBottom="10dp"/>
 
         <ImageView
@@ -159,6 +159,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
             app:labelVisibilityMode="labeled"
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_navigation_menu"

@@ -85,12 +85,12 @@ public class Activity5 extends AppCompatActivity  {
 //        drawerLayout = findViewById(R.id.my_drawer_layout);
 //        navigationView = findViewById(R.id.side_nav_view);
 
-        imageView1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Activity5.this, SideDrawer.class));
-            }
-        });
+//        imageView1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(Activity5.this, SideDrawer.class));
+//            }
+//        });
 
 
     }

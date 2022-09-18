@@ -17,7 +17,7 @@
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_15.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_16.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_17.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_18.xml" value="0.25" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_18.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_19.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_2.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_20.xml" value="0.16145833333333334" />
@@ -31,11 +31,21 @@
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_8.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_9.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/activity_side_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/app_bar_side_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/content_side_drawer.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_add_framgment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_like.xml" value="0.1" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_listen.xml" value="0.1" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/header_nav_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/layout/nav_header_side_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/menu/activity_main_drawer.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.131640625" />
+        <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/menu/side_drawer.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/menu/side_navigation.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/menu/side_navigation_menu.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/HRH/AndroidStudioProjects/Assignment1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
